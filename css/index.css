@@ -16,4 +16,71 @@ font-family: 'Roboto', sans-serif; */
 
 .nav-item a {
   color: #000000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-item a:hover {
+  color: #8900ff;
+}
+
+.fold {
+  padding-top: 50px;
+}
+
+.fold h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 96px;
+  line-height: 105px;
+}
+
+.fold p{
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+}
+
+.fold span {
+  color: #8900ff;
+}
+
+.section1 {
+  padding-top: 150px;
+}
+
+.section1 .skewed {
+  -ms-transform: skewY(-5deg); /* IE 9 */
+  -webkit-transform: skewY(-5deg); /* Safari */
+  transform: skewY(-5deg);
+  background: #7F00FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.unskew{
+  -ms-transform: skewY(5deg); /* IE 9 */
+  -webkit-transform: skewY(5deg); /* Safari */
+  transform: skewY(5deg);
+}
+
+.section1 .skewed .text {
+  padding-top: 90px;
+  padding-bottom: 140px;
+  overflow: auto;
+}
+
+ .section1-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  color: white;
+  line-height: 60px;
+}
+
+.quotation p {
+    padding-top: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.italic {
+  font-style: italic;
 }
