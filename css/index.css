@@ -43,7 +43,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .section1 {
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .section1 .skewed {
@@ -83,4 +83,39 @@ font-family: 'Roboto', sans-serif; */
 
 .italic {
   font-style: italic;
+}
+
+.knowmore button {
+  width: 300px;
+  background-color: transparent;
+  border-radius: 10px;
+  height: 50px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  border: 2px solid;
+
+}
+
+.knowmore button:hover {
+  background-color: #ffd800;
+  color: black;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.section2 {
+  margin-top: 150px;
+  padding-bottom: 200px;
+}
+
+.icon-container {
+  width:200px;
+  height:300px;
+  margin: 10px;
+}
+
+.icon-style {
+  font-size:3em; color:tomato;
+  text-align: center;
 }
