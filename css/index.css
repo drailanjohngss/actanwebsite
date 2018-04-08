@@ -161,7 +161,6 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .section-3-item-container{
-  width: 700px;
   background-color: white;
   text-align: center;
 }
@@ -185,6 +184,7 @@ font-family: 'Roboto', sans-serif; */
   font-weight: normal;
   text-align: left;
   padding-left: 40px;
+  padding-right: 40px;
   font-size: 20px;
 }
 
