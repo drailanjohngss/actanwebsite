@@ -7,7 +7,9 @@ body {
 font-family: 'Oswald', sans-serif;
 font-family: 'Roboto Slab', serif;
 font-family: 'Roboto', sans-serif; */
-
+.container {
+  padding: 0;
+}
 
 .container-fluid {
   padding-right: 0;
@@ -111,11 +113,85 @@ font-family: 'Roboto', sans-serif; */
 
 .icon-container {
   width:200px;
-  height:300px;
   margin: 10px;
 }
 
 .icon-style {
-  font-size:3em; color:tomato;
+  font-size:5em; color:#9803ff;
   text-align: center;
+}
+
+.icon-header {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.icon-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.icon-body {
+  text-align: center;
+}
+
+.section3 {
+  background: #6a3093;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section3-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  color: white;
+  line-height: 60px;
+  text-align: center;
+}
+
+.section3-sub {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  color: white;
+  line-height: 60px;
+  text-align: center;
+}
+
+.section-3-item-container{
+  width: 700px;
+  background-color: white;
+  text-align: center;
+}
+
+.section-3-item-title {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  width: 100%;
+  padding-top: 10px;
+  background: #FF8008;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-left: 20px;
+  color: white;
+}
+
+.section-3-item-body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+.section-3-item-price {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 40px;
+  font-size: 20px;
 }
